@@ -1,0 +1,24 @@
+! блюр фона панели управления / control panel background blur
+!www.youtube.com##.ytp-chrome-controls:style(--yt-frosted-glass-backdrop-filter-override:blur(16px) !important;)
+
+! блюр меню настроек и правого клика / blur the settings menu and right click
+www.youtube.com##.ytp-popup:style(--yt-frosted-glass-backdrop-filter-override:blur(16px) !important;)
+
+! блюр статистики сисадмина / blur system administrator statistics
+www.youtube.com##.html5-video-info-panel:style(backdrop-filter: blur(16px) !important;)
+
+! блюр панели кнопок лайков в полноэкранном режиме / blur the like button panel in full screen mode
+!www.youtube.com##.ytp-fullscreen-quick-actions:style(backdrop-filter: blur(16px) !important;)
+
+! блюр/затемнение фона названия ролика в фуллскрине / blur/darken the background of the video title in full screen
+www.youtube.com##.ytPlayerOverlayVideoDetailsRendererHost:style(backdrop-filter: blur(16px); background-color: rgba(0, 0, 0, 0.3) !important;)
+
+! блюр/затемнение/закругление фона всплывающих секунд при перемотке курсором / blur/darken/round the background of pop-up seconds when scrolling with the cursor
+www.youtube.com##.ytp-seek-overlay-animation:style(backdrop-filter: blur(16px); background-color: rgba(0, 0, 0, 0.5) !important;)
+www.youtube.com##.ytp-seek-overlay-animation:style(border-radius: 18px; padding: 8px 16px !important;)
+
+! закругление фона всплывающего текста громкости в центре экрана / rounded background of volume pop-up text in the center of the screen
+www.youtube.com##.ytp-bezel-text:style(border-radius: 18px !important;)
+
+! блюр фона плей/пауза в центре экрана / background blur play/pause in the center of the screen
+www.youtube.com##.ytp-bezel:style(backdrop-filter: blur(16px) !important;)

@@ -1,0 +1,27 @@
+! перемещение прогресс бара / moving the progress bar
+www.youtube.com##.ytp-progress-bar-container:style(transform: translateX(0px) translateY(15px) !important;)
+
+! цвет прогресс бара / progress bar color
+www.youtube.com##.ytp-progress-linear-live-buffer:style(background-color: #e8e8e840 !important;)
+www.youtube.com##.ytp-progress-linear-live-buffer:style(opacity: 1 !important;)
+
+! перемещение панели управления / moving the control panel
+www.youtube.com##.ytp-chrome-controls:style(transform: scale(1.0) translateX(0px) translateY(7px) !important;)
+
+! отключение нового фона панели управления / disabling the new Control Panel background
+www.youtube.com##.ytp-chrome-controls:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0) !important;)
+
+! включение старого градиента фона панели управления, нельзя юзать колесо мышки в фуллскрине!!!
+! enabling the old control panel background gradient; you can't use the mouse wheel in fullscreen!!!
+www.youtube.com##.ytp-gradient-top:style(display: block !important;)
+www.youtube.com##.ytp-gradient-bottom:style(display: block !important;)
+
+
+! удаление панели лайков в фуллскрине / removing the likes panel in fullscreen mode
+
+www.youtube.com##.ytPlayerQuickActionButtonsHostDisableBackdropFilter
+! удаление шлака прокрутки колеса в фуллскрине / removing crap when scrolling the wheel in fullscreen
+
+www.youtube.com##.ytp-fullscreen-grid
+! удаление чата в фуллскрине / deleting a chat in fullscreen
+www.youtube.com###panels-full-bleed-container
