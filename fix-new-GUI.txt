@@ -22,3 +22,11 @@ www.youtube.com##.ytp-bezel-text:style(border-radius: 18px !important;)
 
 ! блюр фона плей/пауза в центре экрана / background blur play/pause in the center of the screen
 www.youtube.com##.ytp-bezel:style(backdrop-filter: blur(16px) !important;)
+
+! блюр фона всплывающих подсказок горячих клавиш / background blur of pop-up hotkey hints
+www.youtube.com##.ytp-tooltip:style(backdrop-filter: blur(16px) !important;)
+
+! цвет и рамка фона превью при наведении курсора на тайм лайн (избавляет от стробоскопа)
+! background color and frame for video preview when hovering over the timeline (eliminates stroboscopic effect when moving the cursor quickly)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(background-color: rgba(0, 0, 0, 0.5) !important;)
+www.youtube.com##.ytp-tooltip-progress-bar-style:style(padding: 5px !important;)
