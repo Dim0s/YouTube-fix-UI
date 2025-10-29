@@ -1,11 +1,11 @@
 ! перемещение прогресс бара / moving the progress bar
-www.youtube.com##.ytp-progress-bar-container:style(transform: translateX(0px) translateY(15px) !important;)
+www.youtube.com##.ytp-progress-bar-container:style(transform: translateY(15px) !important;)
 
 ! цвет прогресс бара / progress bar color
 www.youtube.com##.ytp-progress-list:style(background-color: rgba(255,255,255,0.2) !important;)
 
 ! перемещение панели управления / moving the control panel
-www.youtube.com##.ytp-chrome-controls:style(transform: scale(1.0) translateX(0px) translateY(7px) !important;)
+www.youtube.com##.ytp-chrome-controls:style(transform: translateY(7px) !important;)
 
 ! отключение нового фона панели управления / disabling the new Control Panel background
 www.youtube.com##.ytp-chrome-controls:style(--yt-spec-overlay-background-medium-light: rgba(0, 0, 0, 0) !important;)
@@ -24,4 +24,5 @@ www.youtube.com##.ytp-fullscreen-grid
 
 ! удаление чата в фуллскрине / deleting a chat in fullscreen
 www.youtube.com###panels-full-bleed-container
+
 
